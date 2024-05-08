@@ -1,6 +1,6 @@
 <html>
 <head>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css"/>
   <style>
@@ -90,6 +90,10 @@ function  statusAsString(x) {
     else if (x == "1") {return "recording";}
     else if (x == "2") {return "inactive";}
     else if (x == "3") {return "<b>active</b>";}
+    else if (x == "4") {return "idle";}
+    else if (x == "6") {return "stopped";}
+    else if (x == "7") {return "available";}
+    else if (x == "8") {return "ignore";}
     else {return "undefined";}
 }
 

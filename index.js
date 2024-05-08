@@ -264,7 +264,7 @@ server.listen(3010, function () {
       server.address().port +
       "/server"
   );
-  console.log(process.env);
+  //console.log(process.env);
 });
 
 module.exports = server;
