@@ -10,8 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "1.20.2",
-    "csv": "6.3.8",
+    "csv": "1.2.1",
     "express": "4.19.2",
-    "ws": "8.17.0"
+    "ws": "3.3.3"
   }
 }
